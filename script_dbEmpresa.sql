@@ -11,7 +11,9 @@ password char(128),
 salt char(128),
 company varchar(45),
 status int(1),
-role_id int);
+role_id int
+
+);
 
 create table tbClients(
 id int,
